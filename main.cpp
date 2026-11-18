@@ -57,7 +57,7 @@ void measure() {
 
     // Report results
     std::sort(diffs.begin(), diffs.end());
-    std::println("Second byte aligned to {:>3}, ticks: {:>10}", N, diffs[0].count());
+    std::println("Second byte aligned to {:>3}, runtime (µs): {:>10}", N, diffs[0].count());
 }
 
 int main() {
